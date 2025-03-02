@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "745737025706",
+    "project_id": "watfa-90629",
+    "storage_bucket": "watfa-90629.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745737025706:android:54ba5145b5ac67a47d78d3",
+        "android_client_info": {
+          "package_name": "com.example.watfa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhn9kPgm8SjDJhXKrkfiB7H7aiT66tDBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

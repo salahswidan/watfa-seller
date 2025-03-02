@@ -1,0 +1,19 @@
+
+default_platform(:android)
+
+platform :android do
+  desc "Lane for Android Firebase App Distribution"
+  lane :firebase_distribution do
+    sh "flutter clean"
+    sh "flutter build apk   --target lib/main.dart  --no-tree-shake-icons" 
+    firebase_app_distribution(
+        app: "1:745737025706:android:54ba5145b5ac67a47d78d3",
+      firebase_cli_token: ENV["FIREBASE_CLI_TOKEN"],
+      debug: true,
+      android_artifact_type: "APK",
+      android_artifact_path: "../build/app/outputs/flutter-apk/app-release.apk",
+      testers: "mariamkhaled922003@gmail.com, mariamfawzu@gmail.com, ghazyeman360@gmail.com, mahmoudabuelazem2467@gmail.com",
+      release_notes: "Complete Signup Api and add animation for logo,imvprove navigation role like onboarding screen and add new screen for user to choose his role",
+    )
+  end
+end
