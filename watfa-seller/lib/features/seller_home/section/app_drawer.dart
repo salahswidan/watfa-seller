@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:watfa/core/Local/AppLocalizations.dart';
 import 'package:watfa/core/helpers/extinsions.dart';
@@ -7,11 +6,9 @@ import 'package:watfa/features/auth/get_started/presentation/screen/get_started_
 import 'package:watfa/features/notifications/presentation/screen/notifications_screen.dart';
 import 'package:watfa/features/orders_and_payouts/screens/order_screen.dart';
 import 'package:watfa/features/orders_and_payouts/section/payouts_screen.dart';
-import 'package:watfa/features/select_plan/presentation/section/order_complate_screen.dart';
 import 'package:watfa/features/seller_done_home/screens/done_seller_home_screen.dart';
 import '../../../core/helpers/shared_pref_helper.dart';
 import '../../../core/helpers/spacing.dart';
-import '../../../core/routing/routes.dart';
 import '../../../core/theme/colors.dart';
 import '../../settings/presentation/widget/logut_elevated_button.dart';
 import '../widgets/company_edit_image.dart';

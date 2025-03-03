@@ -4,7 +4,8 @@ import 'package:watfa/core/helpers/extinsions.dart';
 import 'package:watfa/core/helpers/spacing.dart';
 import 'package:watfa/core/theme/styles.dart';
 import 'package:watfa/core/Local/local_cubit.dart';
-import '../../home/presentation/widget/user_image.dart';
+
+import '../../../core/widgets/user_image.dart';
 
 class SellerHomeAppBar extends StatelessWidget implements PreferredSizeWidget {
   const SellerHomeAppBar({super.key, this.isDone, this.onLanguageChanged});

@@ -5,7 +5,7 @@ import 'package:watfa/core/helpers/extinsions.dart';
 import 'package:watfa/core/helpers/spacing.dart';
 import 'package:watfa/core/theme/styles.dart';
 import '../../../core/theme/colors.dart';
-import '../../home/presentation/widget/user_image.dart';
+import '../../../core/widgets/user_image.dart';
 
 class CustomUserMassege extends StatelessWidget {
   const CustomUserMassege({

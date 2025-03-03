@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:watfa/features/home/presentation/screen/home_screen.dart';
 
 class Routes {
   static const String onBoardingScreen = '/OnBoardingScreen';
@@ -37,8 +36,7 @@ class Routes {
 
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
-      case homeScreen:
-        return MaterialPageRoute(builder: (_) => HomeScreen());
+     
       default:
         return MaterialPageRoute(builder: (_) => Scaffold(
           body: Center(child: Text('No route defined for ${settings.name}')),
