@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:watfa/core/Local/AppLocalizations.dart';
 import 'package:watfa/core/helpers/extinsions.dart';
+import 'package:watfa/features/auth/sign_up_seller/presentation/screen/sign_up_seller_screen.dart';
 import '../../../../../core/helpers/shared_pref_helper.dart';
 import '../../../../../core/helpers/spacing.dart';
 import '../../../../../core/routing/routes.dart';
@@ -38,7 +39,8 @@ class _GetStartedFormState extends State<GetStartedForm> {
               await CacheServices.instance.setUserType(_selectedUserType == 1);
             });
 
-            context.pushNamed(Routes.loginScreen);
+            // context.pushNamed(Routes.loginScreen);
+            Navigator.push(context, MaterialPageRoute(builder: (context) => SignUpSellerScreen()));
           },
           text: 'Proceed'.tr(context),
         )

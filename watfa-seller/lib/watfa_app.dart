@@ -57,7 +57,7 @@ class WatfaApp extends StatelessWidget {
 
 String setinitialRoute() {
   final currentRoute = CacheServices.instance.getCurrentRoute();
-  debugPrint('Initial route: $currentRoute'); 
+  debugPrint('Initial route: $currentRoute');
   if (currentRoute != null && currentRoute.isNotEmpty) {
     return currentRoute;
   }

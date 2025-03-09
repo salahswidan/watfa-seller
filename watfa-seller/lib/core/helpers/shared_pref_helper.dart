@@ -61,7 +61,8 @@ class CacheServices {
   }
 
   bool getOnBoarding() {
-    bool isSeen = false;
+    //! here
+    bool isSeen = true;
     try {
       isSeen = prefs.getBool('onboarding')!;
       return isSeen;
