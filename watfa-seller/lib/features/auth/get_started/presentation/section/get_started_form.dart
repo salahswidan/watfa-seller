@@ -40,7 +40,8 @@ class _GetStartedFormState extends State<GetStartedForm> {
             });
 
             // context.pushNamed(Routes.loginScreen);
-            Navigator.push(context, MaterialPageRoute(builder: (context) => SignUpSellerScreen()));
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => SignUpSellerScreen()));
           },
           text: 'Proceed'.tr(context),
         )
